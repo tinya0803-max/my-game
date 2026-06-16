@@ -1,75 +1,87 @@
-# Battle Arena Game 🎮
+# 🎮 Mini Game Hub
 
-An interactive web-based battle game built with React, TypeScript, and Tailwind CSS.
+A collection of 4 interactive mini-games built with React, TypeScript, and Tailwind CSS
 
-## Features
+## Games Included
 
-- 🎯 Wave-based combat system
-- 📊 Progressive difficulty scaling
-- 🎨 Smooth animations with Motion
-- ✨ Visual effects and confetti
-- 📱 Responsive design
-- 🏆 Score and level tracking
+### 1. 🌱 Garden Simulator
+- Plant seeds in soil patches
+- Watch crops grow through 4 stages
+- Harvest ripe crops for points and currency
+- Unlock different plant types
 
-## Getting Started
+**How to Play:**
+- Select a plant type
+- Click empty soil to plant
+- Wait for crops to grow
+- Click fully grown crops (✅) to harvest
 
-### Prerequisites
+### 2. 🏔️ Obby Parkour  
+- Navigate through increasingly difficult platforms
+- Jump over obstacles and moving platforms
+- Reach the top to progress to the next level
 
-- Node.js (v16 or higher)
-- pnpm (or npm)
+**How to Play:**
+- A/D - Move left/right
+- SPACE - Jump
+- Avoid falling off platforms
 
-### Installation
+### 3. 👥 Hide & Seek
+- Play as Seeker or Hider
+- Seeker: Find hidden players using proximity detection
+- Hider: Survive without being found
 
-1. Clone the repository:
+**How to Play (Seeker):**
+- Move mouse to control seeker position
+- Get close to hiders to discover them
+- Click to tag hidden players
+
+### 4. 🌲 99 Nights in Forest
+- Survival game with day/night cycles
+- Gather resources (wood, stone, food)
+- Build shelter and start fires
+- Fight off monsters
+- Survive 99 nights to win!
+
+**How to Play:**
+- Gather wood and stone during day
+- Hunt for food
+- Build shelter before night (30 wood + 20 stone)
+- Start fire for protection (10 wood + shelter)
+- Eat food to stay alive
+- Attack enemies when they appear
+
+## Installation
+
 ```bash
 git clone https://github.com/tinya0803-max/my-game.git
 cd my-game
-```
-
-2. Install dependencies:
-```bash
 pnpm install
-```
-
-3. Start the development server:
-```bash
 pnpm run dev
 ```
 
-The game will automatically open in your browser at `http://localhost:3000`
-
-## How to Play
-
-1. **Select an Enemy**: Click on an enemy to select it
-2. **Attack**: Click the "Attack!" button to deal damage
-3. **Survive**: Defeat all enemies before your health reaches 0
-4. **Progress**: Defeat waves to increase your level and score
-5. **Aim for High Score**: Try to survive as many waves as possible!
-
-## Game Mechanics
-
-- **Player Health**: You start with 100 HP
-- **Enemy Damage**: Enemies attack every 3 seconds
-- **Attack Damage**: Each attack deals 10-25 damage
-- **Wave Progression**: Defeat all enemies to advance to the next wave
-- **Scaling Difficulty**: Each wave has more enemies and higher stats
-
-## Building for Production
+## Building
 
 ```bash
 pnpm run build
 ```
 
-## Technologies Used
+## Technologies
 
 - React 18.3.1
 - TypeScript
-- Vite
 - Tailwind CSS
 - Motion (Animations)
-- Canvas Confetti
+- Vite
 - Lucide React (Icons)
 
-## License
+## Features
 
-MIT
+✨ Smooth animations  
+🎨 Beautiful gradients and UI  
+🎮 Interactive gameplay  
+📊 Score tracking  
+⏱️ Time-based challenges  
+🎯 Progressive difficulty  
+
+Enjoy! 🎊
